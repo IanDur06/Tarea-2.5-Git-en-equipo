@@ -41,5 +41,24 @@ namespace Tarea_2.__git
 				MessageBox.Show("Usuario y contraseña incorrectos. Revisar si esta bien.");
 			}
 		}
+		
+		void CheckBox1CheckedChanged(object sender, EventArgs e)
+		{
+			if (checkBox1.Checked)
+		    {
+		        txtContraseña.PasswordChar = '\0';
+		        checkBox1.Text = "Ocultar contraseña";
+		    }
+		    else
+		    {
+		        txtContraseña.PasswordChar = '*';
+		        checkBox1.Text = "Mostrar contraseña";
+		    }
+		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			Application.Exit();
+		}
 	}
 }
