@@ -28,5 +28,23 @@ namespace Tarea_2.__git
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void RegresarToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			MainForm login = new MainForm();
+			login.Show();
+			this.Close();
+		}
+		
+		void SalirToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Application.Exit();
+		}
+		
+		void CoordenadasDeUnPuntoToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			frmCoordenadas ventana = new frmCoordenadas();
+			ventana.Show();
+		}
 	}
 }
