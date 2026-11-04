@@ -55,6 +55,10 @@
     <Compile Include="frmCoordenadas.Designer.cs">
       <DependentUpon>frmCoordenadas.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPesos.cs" />
+    <Compile Include="frmPesos.Designer.cs">
+      <DependentUpon>frmPesos.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -68,6 +72,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmCoordenadas.resx">
       <DependentUpon>frmCoordenadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPesos.resx">
+      <DependentUpon>frmPesos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

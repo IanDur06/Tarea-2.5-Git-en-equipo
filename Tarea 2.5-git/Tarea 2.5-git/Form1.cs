@@ -46,5 +46,12 @@ namespace Tarea_2.__git
 			frmCoordenadas ventana = new frmCoordenadas();
 			ventana.Show();
 		}
+		
+		void ConversiónDeDolaresToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			frmPesos dinero = new frmPesos();
+			dinero.Show();
+			this.Close();
+		}
 	}
 }

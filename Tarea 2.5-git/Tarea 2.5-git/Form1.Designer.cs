@@ -42,6 +42,7 @@ namespace Tarea_2.__git
 			this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.programasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.coordenadasDeUnPuntoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.conversiónDeDolaresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -82,7 +83,8 @@ namespace Tarea_2.__git
 			// programasToolStripMenuItem
 			// 
 			this.programasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-									this.coordenadasDeUnPuntoToolStripMenuItem});
+									this.coordenadasDeUnPuntoToolStripMenuItem,
+									this.conversiónDeDolaresToolStripMenuItem});
 			this.programasToolStripMenuItem.Name = "programasToolStripMenuItem";
 			this.programasToolStripMenuItem.Size = new System.Drawing.Size(92, 24);
 			this.programasToolStripMenuItem.Text = "&Programas";
@@ -93,6 +95,13 @@ namespace Tarea_2.__git
 			this.coordenadasDeUnPuntoToolStripMenuItem.Size = new System.Drawing.Size(250, 24);
 			this.coordenadasDeUnPuntoToolStripMenuItem.Text = "&Coordenadas de un punto";
 			this.coordenadasDeUnPuntoToolStripMenuItem.Click += new System.EventHandler(this.CoordenadasDeUnPuntoToolStripMenuItemClick);
+			// 
+			// conversiónDeDolaresToolStripMenuItem
+			// 
+			this.conversiónDeDolaresToolStripMenuItem.Name = "conversiónDeDolaresToolStripMenuItem";
+			this.conversiónDeDolaresToolStripMenuItem.Size = new System.Drawing.Size(250, 24);
+			this.conversiónDeDolaresToolStripMenuItem.Text = "Conversión de &Dolares";
+			this.conversiónDeDolaresToolStripMenuItem.Click += new System.EventHandler(this.ConversiónDeDolaresToolStripMenuItemClick);
 			// 
 			// Form1
 			// 
@@ -107,6 +116,7 @@ namespace Tarea_2.__git
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.ToolStripMenuItem conversiónDeDolaresToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem coordenadasDeUnPuntoToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem programasToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
