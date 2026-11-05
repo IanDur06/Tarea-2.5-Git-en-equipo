@@ -43,6 +43,7 @@ namespace Tarea_2.__git
 			this.programasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.coordenadasDeUnPuntoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.conversiónDeDolaresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+			this.distanciaEntreDosPuntosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
 			this.menuStrip1.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -84,7 +85,8 @@ namespace Tarea_2.__git
 			// 
 			this.programasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
 									this.coordenadasDeUnPuntoToolStripMenuItem,
-									this.conversiónDeDolaresToolStripMenuItem});
+									this.conversiónDeDolaresToolStripMenuItem,
+									this.distanciaEntreDosPuntosToolStripMenuItem});
 			this.programasToolStripMenuItem.Name = "programasToolStripMenuItem";
 			this.programasToolStripMenuItem.Size = new System.Drawing.Size(92, 24);
 			this.programasToolStripMenuItem.Text = "&Programas";
@@ -92,16 +94,23 @@ namespace Tarea_2.__git
 			// coordenadasDeUnPuntoToolStripMenuItem
 			// 
 			this.coordenadasDeUnPuntoToolStripMenuItem.Name = "coordenadasDeUnPuntoToolStripMenuItem";
-			this.coordenadasDeUnPuntoToolStripMenuItem.Size = new System.Drawing.Size(250, 24);
+			this.coordenadasDeUnPuntoToolStripMenuItem.Size = new System.Drawing.Size(254, 24);
 			this.coordenadasDeUnPuntoToolStripMenuItem.Text = "&Coordenadas de un punto";
 			this.coordenadasDeUnPuntoToolStripMenuItem.Click += new System.EventHandler(this.CoordenadasDeUnPuntoToolStripMenuItemClick);
 			// 
 			// conversiónDeDolaresToolStripMenuItem
 			// 
 			this.conversiónDeDolaresToolStripMenuItem.Name = "conversiónDeDolaresToolStripMenuItem";
-			this.conversiónDeDolaresToolStripMenuItem.Size = new System.Drawing.Size(250, 24);
+			this.conversiónDeDolaresToolStripMenuItem.Size = new System.Drawing.Size(254, 24);
 			this.conversiónDeDolaresToolStripMenuItem.Text = "Conversión de &Dolares";
 			this.conversiónDeDolaresToolStripMenuItem.Click += new System.EventHandler(this.ConversiónDeDolaresToolStripMenuItemClick);
+			// 
+			// distanciaEntreDosPuntosToolStripMenuItem
+			// 
+			this.distanciaEntreDosPuntosToolStripMenuItem.Name = "distanciaEntreDosPuntosToolStripMenuItem";
+			this.distanciaEntreDosPuntosToolStripMenuItem.Size = new System.Drawing.Size(254, 24);
+			this.distanciaEntreDosPuntosToolStripMenuItem.Text = "&Distancia entre dos puntos";
+			this.distanciaEntreDosPuntosToolStripMenuItem.Click += new System.EventHandler(this.DistanciaEntreDosPuntosToolStripMenuItemClick);
 			// 
 			// Form1
 			// 
@@ -116,6 +125,7 @@ namespace Tarea_2.__git
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.ToolStripMenuItem distanciaEntreDosPuntosToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem conversiónDeDolaresToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem coordenadasDeUnPuntoToolStripMenuItem;
 		private System.Windows.Forms.ToolStripMenuItem programasToolStripMenuItem;

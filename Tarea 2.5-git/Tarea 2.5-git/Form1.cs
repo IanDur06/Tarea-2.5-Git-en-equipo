@@ -53,5 +53,12 @@ namespace Tarea_2.__git
 			dinero.Show();
 			this.Close();
 		}
+		
+		void DistanciaEntreDosPuntosToolStripMenuItemClick(object sender, EventArgs e)
+		{
+			Distancia puntos = new Distancia();
+			puntos.Show();
+			this.Close();
+		}
 	}
 }
